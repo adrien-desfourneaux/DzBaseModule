@@ -1,0 +1,47 @@
+{
+    "name": "dieze/dz-base-module",
+    "description": "Module qui sert de base pour les autres modules ZF2",
+    "type": "library",
+    "keywords": [
+        "zf2",
+        "base",
+        "library",
+        "module"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/dieze/DzBaseModule",
+    "authors": [
+        {
+            "name": "Desfourneaux Adrien (aka Dieze)",
+            "email": "dieze51@gmail.com",
+            "role": "Creator"
+        }
+    ],
+    "support": {
+        "email": "dieze51@gmail.com",
+        "issues": "https://github.com/dieze/DzBaseModule/issues",
+        "wiki": "https://github.com/dieze/DzBaseModule/wiki",
+        "source": "https://github.com/dieze/DzBaseModule"
+    },
+    "require": {
+        "firephp/firephp-core": "dev-master",
+        "php": ">=5.3.3",
+        "zendframework/zend-eventmanager": "~2.1",
+        "zendframework/zend-form": "~2.1",
+        "zendframework/zend-http": "~2.1",
+        "zendframework/zend-log": "~2.1",
+        "zendframework/zend-modulemanager": "~2.1",
+        "zendframework/zend-mvc": "~2.1",
+        "zendframework/zend-stdlib": "~2.1",
+        "zendframework/zend-view": "~2.1"
+    },
+    "require-dev": {
+        "phpdocumentor/phpdocumentor": "2.*",
+        "fabpot/php-cs-fixer": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "DzBaseModule": "src/"
+        }
+    }
+}
